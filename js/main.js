@@ -24,4 +24,10 @@ generateButton.addEventListener('click', function() {
         prezzo -= (prezzo / 100 * scontoOver);   
     }
     console.log(`Il prezzo finale del biglietto è ${prezzo.toFixed(2)}€`);
+
+    //documenti html
+    const bigliettoElement = document.getElementById('biglietto')
+    //mostra anteprima biglietto
+    bigliettoElement.classList.remove('nascosta')
+
 });
