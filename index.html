@@ -6,6 +6,29 @@
     <title>calcolo del prezzo del biglietto del treno form</title>
 </head>
 <body>
+    <!--ZONA INSERIMENTO DATI DA PARTE DELL'UTENTE-->
+    <section id="form">
+        <h2>calcola il prezzo del tuo biglietto</h2>
+        <div class="container">
+            <div class="riga">
+                <div class="col">
+                    <label for="km-user">Km</label>
+                    <input type="number" id="km-user">
+                    <label for="eta-user">Età</label>
+                    <select id="eta-user">
+                        <option value="under">minorenne</option>
+                        <option value="standard">standard</option>
+                        <option value="over">anziano</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <button id="generatore">genera</button>
+                    <button id="reset">cancella</button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
    
     <script type="text/javascript" src="./js/main.js"></script>
 </body>
