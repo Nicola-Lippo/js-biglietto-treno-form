@@ -53,8 +53,8 @@ generateButton.addEventListener('click', function() {
 
     userOutput.innerText = nameInput.value;
     offertaOutput.innerText = ageInput.value;
-    
-    codiceOutput
+    carrozzaOutput.innerText = Math.ceil(Math.random() * 20)
+    codiceOutput.innerText = Math.ceil(Math.random() * 9999)
     costoOutput.innerText = prezzo.toFixed(2);
 
 });
